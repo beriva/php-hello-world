@@ -5,9 +5,16 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name)
+function helloWorld()
 {
-    //
-    // YOUR CODE GOES HERE
-    //
+  $name= "berivan!";
+  if ($name === null){
+    echo "Hello World!";
+  }
+  else {
+    echo "Hello"." ".$name;
+  }
+
 }
+helloWorld($name);
+?>
